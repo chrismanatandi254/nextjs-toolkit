@@ -153,13 +153,13 @@ export default function Home() {
             </div>
             <div className="space-y-1">
               <p className="text-zinc-200 font-semibold">Server-side Fetching</p>
-              <p>The <code className="text-yellow-400">/api/joke</code> route fetches from an external API on the server — avoiding CORS and keeping keys private.</p>
+              <p>The <code className="text-yellow-400">/api/joke</code> route fetches from an external API on the server avoiding CORS and keeping keys private.</p>
             </div>
           </div>
         </div>
 
         <p className="text-xs text-zinc-600 text-center pt-4">
-          Moringa AI Capstone · Next.js Beginner Toolkit · {new Date().getFullYear()}
+          AI Capstone · Next.js Beginner Toolkit · {new Date().getFullYear()}
         </p>
       </div>
     </main>
