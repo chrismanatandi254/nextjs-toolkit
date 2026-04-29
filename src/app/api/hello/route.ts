@@ -4,7 +4,7 @@ import { NextResponse } from "next/server";
 // Returns a simple greeting message with server timestamp
 export async function GET() {
   return NextResponse.json({
-    message: "Hello from Next.js API Routes! 🚀",
+    message: "Hello from Next.js API Routes!",
     timestamp: new Date().toISOString(),
     version: "Next.js 16",
   });
