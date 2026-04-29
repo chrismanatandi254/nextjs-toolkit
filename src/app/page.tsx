@@ -60,18 +60,18 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-zinc-950 text-zinc-100 font-mono">
       <header className="border-b border-zinc-800 px-8 py-5 flex items-center gap-3">
-        <span className="text-emerald-400 text-xl">▲</span>
+        <span className="text-emerald-400 text-xl"></span>
         <h1 className="text-sm font-bold tracking-widest uppercase text-zinc-300">
           Next.js API Routes — Beginner Toolkit
         </h1>
-        <span className="ml-auto text-xs text-zinc-600 tracking-wider">v16</span>
+        <span className="ml-auto text-xs text-zinc-600 tracking-wider"></span>
       </header>
 
       <div className="max-w-3xl mx-auto px-6 py-14 space-y-10">
         <div className="space-y-2">
           <h2 className="text-2xl font-bold text-white tracking-tight">API Route Explorer</h2>
           <p className="text-zinc-400 text-sm leading-relaxed">
-            Two live Next.js API routes — one custom, one that calls an external service.
+            Two live Next.js API routes one custom, one that calls an external service.
             Hit the buttons to test them in real time.
           </p>
         </div>
@@ -81,7 +81,7 @@ export default function Home() {
           <div className="px-6 py-4 border-b border-zinc-800 flex items-center justify-between">
             <div>
               <span className="text-xs font-bold text-emerald-400 tracking-widest uppercase">GET</span>
-              <span className="ml-3 text-sm text-zinc-200 font-semibold">/api/hello</span>
+              <span className="ml-3 text-sm text-zinc-200 font-semibold">Server Greeting</span>
             </div>
             <span className="text-xs text-zinc-500">Custom route · returns JSON</span>
           </div>
@@ -113,7 +113,7 @@ export default function Home() {
           <div className="px-6 py-4 border-b border-zinc-800 flex items-center justify-between">
             <div>
               <span className="text-xs font-bold text-emerald-400 tracking-widest uppercase">GET</span>
-              <span className="ml-3 text-sm text-zinc-200 font-semibold">/api/joke</span>
+              <span className="ml-3 text-sm text-zinc-200 font-semibold">Random Joke Generator</span>
             </div>
             <span className="text-xs text-zinc-500">External API · icanhazdadjoke.com</span>
           </div>
