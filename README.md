@@ -9,7 +9,7 @@
 
 ---
 
-## 📖 Table of Contents
+##  Table of Contents
 
 - [About the Project](#about-the-project)
 - [Live Demo](#live-demo)
@@ -26,7 +26,7 @@
 
 ---
 
-## 📌 About the Project
+## About the Project
 
 This project is a hands-on exploration of **Next.js API Routes** using the modern **App Router** introduced in Next.js 13+. It demonstrates:
 
@@ -42,7 +42,7 @@ It was built using **Generative AI prompts** (via [ai.moringaschool.com](http://
 
 > 🔗 Coming soon — deploy your own in one click:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/chrismanatandi254/nextjs-toolkit)
+https://nextjs-toolkit-six.vercel.app/
 
 ---
 
